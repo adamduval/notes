@@ -22,9 +22,3 @@
 
 - Structured Query Language 
 - Designed for managing data in a relational database
-
-# Relational Database    
-
-- Every piece of information has a relationship with every other piece of information
-- Every data is a unique record
-- Rows are linked u 
