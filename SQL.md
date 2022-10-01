@@ -1,10 +1,10 @@
 # SQL
 
 # Log
-20220926 - mode tutorial SQL Like statement
-20220927 - finished mode basic sql tutorial
-20220928 - intermediate tutorial - finished AVG
-20220930 - intermediate tutorial - finished  GROUP BY
+20220926 - mode tutorial SQL Like statement  
+20220927 - finished mode basic sql tutorial  
+20220928 - intermediate tutorial - finished AVG  
+20220930 - intermediate tutorial - finished  GROUP BY  
 
 # Resources
 ## Websites
