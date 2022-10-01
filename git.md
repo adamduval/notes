@@ -3,7 +3,7 @@
 # Log
 20220930 - initial file creation  
 20220930 - working - notes on -- bare  
-20221001 - working - atlassian tutorial - 
+20221001 - working - atlassian tutorial - saving changes
 
 # terminology
 
