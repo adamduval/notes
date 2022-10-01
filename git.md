@@ -1,9 +1,9 @@
 # Git
 
 # Log
-20220930 - initial file creation
-20220930 - working - notes on -- bare
-20221001 - working - atlassian tutorial - finished git clone
+20220930 - initial file creation  
+20220930 - working - notes on -- bare  
+20221001 - working - atlassian tutorial - finished git clone  
 
 # terminology
 
