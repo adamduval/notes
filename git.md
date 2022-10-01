@@ -3,6 +3,7 @@
 # Log
 20220930 - initial file creation
 20220930 - working - notes on -- bare
+20221001 - working - atlassian tutorial - finished git clone
 
 # terminology
 
@@ -38,14 +39,22 @@ git init [-q | --quiet] [--bare] [--template=<template-directory>]
 - it will not overwrite things that are already there
 - the primary reason for rerunning git init is to pick up newly added templates (or to move the repository to another place)
 - --bare will create a bare repo
-- 
 
 ## bare repository
 - a repository where no commits can be made
 - changes cannot be tracked
 - has no working tree in the folder structure
 - the only possible operations are pushing or cloning
+- ? can you also do a pull
 
 ## push
 - uploads a local repository to a remote location
 
+## pull
+- fetches, downloads and then immediately updates a local repository from a remote connection
+
+## remote
+- a connection to another repository
+
+## tag
+- used to capture a specific reference point
