@@ -3,9 +3,16 @@
 # Log
 20220930 - initial file creation  
 20220930 - working - notes on -- bare  
-20221001 - working - atlassian tutorial - finished git clone  
+20221001 - working - atlassian tutorial - 
 
 # terminology
+
+## aliases
+- custom CLI shortcuts
+- designed to be used with frequently used commands to save time
+- common example would be to an alias to remove files form the staging area
+- can be local or global in scope
+- can be created in CLI or editing the source files directly
 
 ## clone
 - used to point to an existing directory and make a copy of it into a new directory
@@ -23,6 +30,10 @@ git clone [--template=<template-directory>]
 - typically a one time operation
 - creates a remote connection called origin which points back to the original repository
 
+## config
+- used to set configuration values on a local (repository), global (user) or system (all users) level
+- can be used to cinfugure colors, whitespace, diff settings etc.
+
 ## hooks
 - scripts that automatically run every time a particular event occurs in a repository
 
@@ -34,7 +45,7 @@ git init [-q | --quiet] [--bare] [--template=<template-directory>]
 	  [--separate-git-dir <git-dir>] [--object-format=<format>]
 	  [-b <branch-name> | --initial-branch=<branch-name>]
 	  [--shared[=<permissions>]] [<directory>
-```
+```	
 - running git init in an existing repository is ok
 - it will not overwrite things that are already there
 - the primary reason for rerunning git init is to pick up newly added templates (or to move the repository to another place)
