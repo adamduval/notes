@@ -4,6 +4,7 @@
 20220930 - initial file creation  
 20220930 - working - notes on -- bare  
 20221001 - working - atlassian tutorial - saving changes
+20221002 - working - atlassian tutorial - inspecting a repository
 
 # terminology
 
@@ -44,7 +45,7 @@ git clone [--template=<template-directory>]
 - used to set configuration values on a local (repository), global (user) or system (all users) level
 - can be used to configure colors, whitespace, diff settings etc.
 
-# diff
+## diff
 - takes two input data sets and outputs the changes between them
 - runs a diff command on potential data sources - commits, branches, files etc.
 
