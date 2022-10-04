@@ -150,7 +150,7 @@ SELECT *
     FROM table_name
     LIMIT 100
 ```
-# MIN / MAX
+## MIN / MAX
 - return the highest or lowest value in a column
 - can be used on non numerical data
 - return the lowest number, earliest date, alphabetical closest to A 
