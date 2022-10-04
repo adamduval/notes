@@ -5,6 +5,7 @@
 20220927 - finished mode basic sql tutorial  
 20220928 - intermediate tutorial - finished AVG  
 20220930 - intermediate tutorial - finished  GROUP BY  
+20221004 - intermediate tutorial - working on CASE inside an aggregate function (pivot)
 
 # Resources
 ## Websites
@@ -75,6 +76,28 @@ SELECT west AS "West_Zone"
 - it must be paired with the AND operator
 - it is inclusive and will include the bounds of the range
 
+## Case
+- SQL way of using if/then logic
+- a CASE statement needs to be followed by a pair of WHEN THEN statements and finish with END
+- it can use an optional else statement
+```
+SELECT year, name 
+    CASE WHEN year = 2022 THEN '22'
+         ELSE NULL END as year_ab
+    from table
+```
+- the case statement above will check each row the year 2022 
+- a column named year_ab is created
+- anytime the case statement is true the column get a 22 if not it gets a null
+- it is possible to chain multiple CASE WHEN statements together
+- it is also possible to have an AND statement inside a CASE
+- Case with aggregate functions
+    - useful functionality
+    - can use to count rows that meant a condition
+    - can be tricky
+        - write out the case statement first then add aggregation and group by
+
+
 ## Comparison Operators
 `=` equal to  
 `<>`, `!=` not equal to
@@ -100,7 +123,9 @@ SELECt * from table_name
 ```
 - the order of the column names does not matter
 - can be combined with an order by to change how the output is displayed
--  
+
+## HAVING
+- used to filter aggregated columns when you can't filter with a WHERE
 
 ## Logical Operators
 `LIKE` match similar values instead of exact ones  
@@ -117,7 +142,6 @@ SELECt * from table_name
 - is case sensitive 
 - can use wildcards % to reference any character or set of characters, _ is for one character
 - ILIKE can be used to ignore case
-
 
 ## LIMIT
 - limits how many rows the query returns
@@ -208,6 +232,8 @@ SELECT *
 # Comments
 - a single line comment is preceded by --
 - multi line comments are enclosed with /* */
+
+# Order of Operations
 
 
 
