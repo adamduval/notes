@@ -3,7 +3,7 @@
 # Log
 20221004 - initial file creation
 
-# general functions
+# General functions
 
 # Dataframe methods
 
