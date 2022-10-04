@@ -20,6 +20,8 @@
 - can be local or global in scope
 - can be created in CLI or editing the source files directly
 
+## branch
+
 ## clone
 - used to point to an existing directory and make a copy of it into a new directory
 ```
