@@ -97,6 +97,11 @@ git init [-q | --quiet] [--bare] [--template=<template-directory>]
 - the only possible operations are pushing or cloning
 - ? can you also do a pull
 
+### log
+
+- displays a list of committed snapshots
+- only operates on committed history, not the working directory
+
 ### origin
 
 - shorthand for the repository location a project was initially cloned from
@@ -120,6 +125,11 @@ git init [-q | --quiet] [--bare] [--template=<template-directory>]
 - saved locally, not pushed to server with a push
 - can pop a stash which will remove the changes from a stash and apply them to the working directory
 - stash apply is the opposite
+
+### status
+
+- displays the state of the working directory
+- shows what has been staged, what is being tracked
 
 ### tag
 
