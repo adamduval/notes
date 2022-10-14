@@ -1,11 +1,25 @@
 # Git
 
+## Inbox
+
+---
+
+## fetch
+
+- downloads commits from remote but does not apply them, less aggressive than pull
+
+---
+
 ## Log
+
+---
 
 20220930 - initial file creation  
 20220930 - working - notes on -- bare  
 20221001 - working - atlassian tutorial - saving changes  
 20221002 - working - atlassian tutorial - inspecting a repository  
+
+---
 
 ## terminology
 
