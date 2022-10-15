@@ -14,7 +14,9 @@
 
 ---
 
-## data structures
+## Notes
+
+### data structures
 
 - can be linear or non linear
   - linear
@@ -56,3 +58,9 @@
     - quick sort
     - bubble sort
     - merge sort
+
+---
+
+## END
+
+---

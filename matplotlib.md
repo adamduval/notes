@@ -1,4 +1,21 @@
 # Matplotlib
 
-# Log
-20220104 - created initial file
+## Inbox
+
+---
+
+## Log
+
+---
+
+## Notes
+
+### One
+
+### Two
+
+---
+
+## END
+
+---

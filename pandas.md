@@ -1,22 +1,32 @@
 # Pandas
 
-# Log
-20221004 - initial file creation
+## Inbox
 
-# General functions
+---
 
-# Dataframe methods
+## Log
 
-## shape
+---
+
+## Notes
+
+### shape
+
 - df.shape()
 - will return a tuple of (length, width) / (# rows, # columns)
 
-## info
+### info
+
 - df.info()
 - prints a summary of data frame info
 - columns list, dtypes and non-null counts
 
-## isna
-- df.isna()
-- 
+### isna
 
+- df.isna()
+
+---
+
+## END
+
+---

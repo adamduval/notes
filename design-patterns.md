@@ -1,3 +1,21 @@
 # Design patterns
 
-# Log
+## Inbox
+
+---
+
+## Log
+
+---
+
+## Notes
+
+### One
+
+### Two
+
+---
+
+## END
+
+---

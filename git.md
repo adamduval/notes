@@ -4,12 +4,6 @@
 
 ---
 
-## fetch
-
-- downloads commits from remote but does not apply them, less aggressive than pull
-
----
-
 ## Log
 
 ---
@@ -21,7 +15,7 @@
 
 ---
 
-## terminology
+## Notes
 
 ### add
 
@@ -75,6 +69,10 @@ git clone [--template=<template-directory>]
 
 - takes two input data sets and outputs the changes between them
 - runs a diff command on potential data sources - commits, branches, files etc.
+
+### fetch
+
+- downloads commits from remote but does not apply them, less aggressive than pull
 
 ### hooks
 
@@ -148,3 +146,10 @@ git init [-q | --quiet] [--bare] [--template=<template-directory>]
 ### tag
 
 - used to capture a specific reference point
+
+---
+
+## END
+
+---
+

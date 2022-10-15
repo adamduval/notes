@@ -1,11 +1,24 @@
 # Python
 
+## Table of Contents
+
+- [dunder variables](# dunder-variables)
+
+---
+
 ## Inbox
+
+---
 
 ## Log
 
-## dunder variables (attributes)
+---
 
+## Notes
+
+### dunder variables
+
+- also called attributes
 - used to convey information about a python program or to a program
 - `__doc__` stores docstring information
 - `__name__` stores the names of classes, modules and functions
@@ -40,5 +53,8 @@
 - when a script is run directly python sets the `__name__` variable to `__main__`
 - if a module is imported then the `__name__` variable is set to the name of the module 
 
+---
 
+## END
 
+---
