@@ -38,7 +38,7 @@
     - tree
     - graph
 
-## arrays
+### arrays
 
 - a structure of fixed size
 - holds items of the same data type
@@ -58,6 +58,28 @@
     - quick sort
     - bubble sort
     - merge sort
+
+### linked list
+
+- a sequence of items in a linear order linked together
+- must access data sequentially, random access not possible
+- elements in a list are known as nodes
+- each node contains a key and a pointer to the next node, known as `next`
+- the `head` of the list points to the first node
+- the last element is known as the `tail`
+- various types:
+  - singly linked list
+    - single direction list (points one way)
+    - null at the end
+  - doubly linked list
+    - double direction pointers, contains an extra `previous` pointer which points to the previous node
+    - null at the end
+  - circular linked list
+    - the first node and last node are connected
+    - one direction, but no null at the end
+  - circular doubly linked lists
+    - combination of the two above
+- can perform various types of operations: traversal, insertion, sort, deletion,  search
 
 ---
 
