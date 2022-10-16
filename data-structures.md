@@ -81,6 +81,24 @@
     - combination of the two above
 - can perform various types of operations: traversal, insertion, sort, deletion,  search
 
+### stack
+
+- a stack is last in first out structure, it is linear
+- elements placed into the structure last can be accessed first
+- like a stack of dinner plates or pancakes
+- two typical stack operations are push and pop
+  - push is inserting an element to the top of the stack
+  - pop is removing the top element from a stack
+
+### queue
+
+- first in first out data structure, it is linear
+- the element which was placed in first can be accessed first
+- all additions are made at one end while all deletions are made at the other end
+- two typical queue operations are enqueue and dequeue
+  - enqueue is adding an element to the end of the queue
+  - dequeue is to delete the element from the beginning of the queue
+
 ---
 
 ## END
