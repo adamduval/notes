@@ -1,11 +1,5 @@
 # Python
 
-## Table of Contents
-
-- [dunder variables](# dunder-variables)
-
----
-
 ## Inbox
 
 ---
