@@ -24,7 +24,7 @@
 - SQLBolt [sqlbolt.com](http://sqlbolt.com/)  
 - SQLCourse [sqlcourse.com](http://sqlcourse.com/)  
 - SQL-ex [sql-ex.ru](http://sql-ex.ru/)  
-- SQLZoo[https://sqlzoo.net](https://sqlzoo.net)    
+- SQLZoo[https://sqlzoo.net](https://sqlzoo.net)
 - Modern SQL [modern-sql.com](http://modern-sql.com/)  
 - PostgreSQL Exercises [pgexercises.com](http://pgexercises.com/)  
 - The PostgreSQL Docs [https://www.postgresql.org/docs/9.2/sql.html](https://www.postgresql.org/docs/9.2/sql.html)  
@@ -42,6 +42,15 @@
 
 - Structured Query Language
 - Designed for managing data in a relational database
+
+### Precision
+
+- the number of digits in a number
+- in SQL Server the maximum precision of decimal and numeric types is 38
+
+### Scale
+
+- the number of digits to the right of the decimal point
 
 ### Aggregate Functions
 
