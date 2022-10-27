@@ -18,9 +18,13 @@
 
 - CTRL + K, CTRL + 3
 
-#### pwd
+### collapse block at cursor
 
-- finds the path of your current working directory
+- CTRL + SHIFT + [
+
+### expand block at cursor
+
+- CTRL + SHIFT + ]
 
 ## End  
 
