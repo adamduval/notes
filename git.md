@@ -6,8 +6,6 @@
 
 ## Log
 
----
-
 20220930 - initial file creation  
 20220930 - working - notes on -- bare  
 20221001 - working - atlassian tutorial - saving changes  
@@ -138,7 +136,6 @@ git push --set-upstream <remote_name>
 git push
 ```
 
-
 ### stash
 
 - temporarily shelves changes you made to the working
@@ -155,8 +152,6 @@ git push
 ### tag
 
 - used to capture a specific reference point
-
----
 
 ## END
 
