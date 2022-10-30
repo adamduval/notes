@@ -129,6 +129,15 @@ git init [-q | --quiet] [--bare] [--template=<template-directory>]
 ### remote
 
 - a connection to another repository
+- how to set remote
+
+```BASH
+git remote add <remote_name> <url>
+git remote -v # check setup
+git push --set-upstream <remote_name>
+git push
+```
+
 
 ### stash
 
