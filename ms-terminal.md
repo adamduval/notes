@@ -10,6 +10,10 @@
 
 ## Notes
 
+### new terminal tab
+
+- CTRL + SHIFT + T
+
 --
 
 ## End
