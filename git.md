@@ -33,7 +33,18 @@
 
 ### branch
 
-- #TODO
+- an independent line of development
+- has a new working directory, staging area and project history
+- results in a fork of the project history
+- branch command lets your list, rename and delete branches
+- git branch - will list all branches in teh repo
+- git branch branch-name will create a new branch with branch name
+- git branch -d branch-name, will delete the branch (prevents deleting branches with unmerged changes)
+- can use git push origin --delete branch-name to delete a remote branch
+- -D option is a force delete
+- git branch -m new_name will rename a branch
+- git branch -a lists all remote branches
+
 
 ### clone
 
