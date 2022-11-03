@@ -262,6 +262,12 @@ SELECT *
 
 - sum values of a numerical column
 
+### TOP
+
+- specifies the number of rows to return
+- TOP is used in SQL Server
+- LIMIT is used in MySQL
+
 ### WHERE
 
 - Filter query data using a WHERE clause
@@ -289,6 +295,7 @@ SELECT *
 - double quotes refers to a column name "group", (GROUP is also a function)
 - only use double quotes when naming an alias with spaces if necessary, ideally should use underscores
 - single quotes - identify a string
+- escape single quotes in a string by doubling them up
 
 ### Comments
 
