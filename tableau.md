@@ -19,6 +19,14 @@
 - a link from Tableau to your data
 - contains multiple data connections to different data bases or files
 
+### Level of detail calculation
+
+- Three types,
+  - FIXED
+    - calculate for a specified dimension without referencing the view
+  - INCLUDE
+  - EXCLUDE
+
 ### logical data layer
 
 - shows relationships between logical tables, only shows general relationships

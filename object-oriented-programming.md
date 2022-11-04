@@ -3,10 +3,19 @@
 ## Inbox
 
 - class types - concrete, abstract, base
+- object
 
 --
 
 ## Log
+
+--
+
+## Notes
+
+### interface
+
+-
 
 ### Structure
 
@@ -22,13 +31,6 @@
 - abstraction
 - inheritance
 - polymorphism
-
-### Object
-
-
---
-
-## Notes
 
 --
 
