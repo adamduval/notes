@@ -2,6 +2,7 @@
 
 ## Inbox
 
+- self
 ---
 
 ## Log
@@ -9,6 +10,22 @@
 ---
 
 ## Notes
+
+### .sort()
+
+- the sort method for the list class
+- modifies the values of the list in place
+- does not return anything
+
+### sorted()
+
+- a built in function to sort an iterable
+- returns the sorted iterable
+
+### set
+
+- a built in data type
+- unordered, unchangeable and do not allow duplicate values
 
 ### dunder variables
 
