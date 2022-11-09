@@ -1,4 +1,4 @@
-# Coding Questions / Challenges etc.
+# Coding Questions / Challenges etc
 
 ## Inbox
 
@@ -10,11 +10,13 @@
 
 ## Notes
 
-### contains duplicate
+### Arrays and Hashing
 
-- [LeetCode](https://leetcode.com/problems/contains-duplicate/)
+#### contains duplicate
 
-#### brute force
+[LeetCode](https://leetcode.com/problems/contains-duplicate/)
+
+brute force
 
 ```python
 class Solution:
@@ -29,7 +31,7 @@ class Solution:
 time: O(n^2) time complexity because it has to loop through the list twice
 space: O(1) no extra memory required
 
-#### sorting
+sorting
 
 ```python
 class Solution:
@@ -43,6 +45,8 @@ class Solution:
 
 time: O(nlog(n))
 space: O(1)
+
+hashing (hash set)
 
 ```python
 class Solution:
@@ -62,11 +66,34 @@ class Solution:
 # shortest solution        
 ```
 
-time: O(n)
-space O(n) additional memory allocation for set
+time: O(n)  
+space: O(n) additional memory allocation for set  
 
+#### is valid anagram
 
-#### hash set
+[LeetCode](https://leetcode.com/problems/valid-anagram/)
+
+brute force
+
+```python
+# working
+class Solution:
+    def isAnagram(self, s: str, t: str) -> bool:
+        
+        # if len s != len r return false
+        if len(s) != len(t):
+            return False
+        
+        # check if t has same letters and quantities as s
+        
+        for i in range(len(s)):
+            for j in range(len(t)):
+                if s[i] == t[j]:
+                    j[i] == '\0' # flag char as already accounted for
+                else:
+                    return False
+            return True
+```
 
 --
 

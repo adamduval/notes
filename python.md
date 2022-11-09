@@ -3,6 +3,7 @@
 ## Inbox
 
 - self
+
 ---
 
 ## Log
@@ -24,8 +25,15 @@
 
 ### set
 
-- a built in data type
+- built in data type
 - unordered, unchangeable and do not allow duplicate values
+
+### string
+
+- built in data type
+- string are immutable
+- an array of unique characters
+- python does not have characters, a character is a string with a length of one
 
 ### dunder variables
 
