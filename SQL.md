@@ -3,6 +3,11 @@
 ## Inbox
 
 - order of operations
+- (Recursive) Common Table Expressions - WITH statements
+- Window functions - RANK(), DENSE_RANK(), ROW_NUMBER()
+- Calculating Delta Values - LAG()/LEAD()
+- UDFs (User Defined Functions) - CREATE (TABLE) FUNCTION
+- Date-time Manipulation - EXTRACT(), DATEDIFF(), DATE_ADD(), DATE_SUB(), DATE_TRUNC()
 
 ---
 
