@@ -12,11 +12,34 @@
 
 ## Notes
 
-### .sort()
+### dictionary
+
+- built in data type
+
+#### dictionary.get()
+
+- get(key, value)
+- returns the dictionary value for the specified key 
+- if the key is not found it returns the specified value
+- if there is no value specified it returns None
+
+### list
+
+- built in data type
+- ordered, mutable, heterogeneous, allows duplicates
+
+#### list.sort()
 
 - the sort method for the list class
 - modifies the values of the list in place
 - does not return anything
+
+### Enum
+
+- class from enum library
+- set of symbolic members bound to unique constant values
+- can be iterated to return members
+- members are hashable and can be used as keys in a dictionary or elements of a set
 
 ### sorted()
 
@@ -70,7 +93,7 @@
 
 - is assigned depending on how it's containing script is executed
 - when a script is run directly python sets the `__name__` variable to `__main__`
-- if a module is imported then the `__name__` variable is set to the name of the module 
+- if a module is imported then the `__name__` variable is set to the name of the module
 
 ---
 

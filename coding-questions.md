@@ -59,6 +59,8 @@ class Solution:
         return False
 ```
 
+hashing one line version
+
 ```python
 class Solution:
     def containsDuplicate(self, nums: List[int]) -> bool:
@@ -76,7 +78,6 @@ space: O(n) additional memory allocation for set
 brute force
 
 ```python
-# working
 class Solution:
     def isAnagram(self, s: str, t: str) -> bool:
         
@@ -84,16 +85,51 @@ class Solution:
         if len(s) != len(t):
             return False
         
-        # check if t has same letters and quantities as s
-        
+        # setup tracking dictionaries
+        tracking_s, tracking_t = {}, {}
+    
+        # count all characters in s, t
         for i in range(len(s)):
-            for j in range(len(t)):
-                if s[i] == t[j]:
-                    j[i] == '\0' # flag char as already accounted for
-                else:
-                    return False
-            return True
+            tracking_s[s[i]] = 1 + tracking_s.get(s[i], 0)
+            tracking_t[t[i]] = 1 + tracking_t.get(t[i], 0)
+        
+        # check equality
+        return tracking_s == tracking_t
 ```
+
+time: O(n) - based ont the size of both strings  
+space: O(n) - additional memory allocation for hash maps of each string
+
+sorting
+
+time: n(log(n)) - depends on the sort type, best case sorting algo is n(log((n))
+space: O(1) - assumption that sorting does not take extra space
+
+```Python
+class Solution:
+    def isAnagram(self, s: str, t: str) -> bool:
+        return sorted(s) == sorted(t)
+```
+
+#### two sum
+
+[LeetCode](https://leetcode.com/problems/two-sum/)
+
+brute force
+
+```Python
+class Solution:
+    def twoSum(self, nums: List[int], target: int) -> List[int]:
+        
+        for i in range(len(nums)):
+            for j in range(i+1, len(nums)):
+                if nums[i] + nums[j] == target:
+                    return [i, j]
+            
+```
+
+time: O(n^2) - need to go through array size n at maximum n times for each number (n*n) = n^2
+space: O(n) - no extra memory required
 
 --
 
