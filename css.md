@@ -28,6 +28,26 @@ h1{
 
 A CSS rule is a block of declarations which apply declaration properties and values to a selector.
 
+### units
+
+- ideally relative units will keep a site more responsive
+- EM # TODO
+- REM # TODO
+
+### style
+
+- use double quotes
+- when a rule has multiple selectors put each selector on a new line with a comma
+
+```css
+h1,
+h2,
+h3 {
+    color: blue;
+    text-align: right;
+}
+```
+
 --
 
 ## End
