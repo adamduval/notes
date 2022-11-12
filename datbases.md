@@ -3,6 +3,7 @@
 ## Inbox
 
 - referential integrity
+- ddl, dml
 
 --
 
@@ -27,7 +28,6 @@
 - 3rd normal form rules
   - must already be in end normal form
   - has not transitive functional dependencies (see definition below)
-
 
 ### Key
 

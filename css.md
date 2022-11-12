@@ -28,6 +28,18 @@ h1{
 
 A CSS rule is a block of declarations which apply declaration properties and values to a selector.
 
+### classes
+
+- used for selecting multiple elements
+- allows multiple of the same name per document
+- .className
+
+### id
+
+- used for selecting distinct elements
+- only one unique id with the same value per document
+- #idName
+
 ### units
 
 - ideally relative units will keep a site more responsive
@@ -47,6 +59,21 @@ h3 {
     text-align: right;
 }
 ```
+
+### combinator
+
+- describes the relationships between selectors
+- allows for the combination of multiple selectors
+- basic selectors
+  - general sibling selector ( ~ )
+  - adjacent sibling selector ( + )
+    - selects the next sibling
+  - child selector ( > )
+  - descendant selector ( space )
+    - selects the next child element
+  - column selector (||)
+
+### specificity
 
 --
 
