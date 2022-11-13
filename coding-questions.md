@@ -124,12 +124,31 @@ class Solution:
         for i in range(len(nums)):
             for j in range(i+1, len(nums)):
                 if nums[i] + nums[j] == target:
-                    return [i, j]
-            
+                    return [i, j]         
 ```
 
 time: O(n^2) - need to go through array size n at maximum n times for each number (n*n) = n^2
-space: O(n) - no extra memory required
+space: O(1) - no extra memory required
+
+hash map
+
+```Python
+class Solution:
+    def twoSum(self, nums: List[int], target: int) -> List[int]:
+        
+        hmap={} # val: num
+        
+        for idx, num in enumerate(nums): 
+            diff = target - num
+            if diff in hmap:
+                return[hmap[diff], idx]
+            hmap[num] = idx
+```
+
+A hash map has constant lookup time. The algorithm on loops through the array once and each insertion/lookup is O(1).
+
+time: O(n)
+space: O(n)
 
 --
 

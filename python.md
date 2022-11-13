@@ -41,6 +41,17 @@
 - can be iterated to return members
 - members are hashable and can be used as keys in a dictionary or elements of a set
 
+### enumerate()
+
+- built in method
+- adds a counter to an iterable and returns the enumerated object
+
+```Python
+enumerate(iterable, start=0)
+# iterable: sequence that supports iteration
+# start: optional, where the index starts counting from
+```
+
 ### sorted()
 
 - a built in function to sort an iterable
