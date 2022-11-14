@@ -19,7 +19,7 @@
 #### dictionary.get()
 
 - get(key, value)
-- returns the dictionary value for the specified key 
+- returns the dictionary value for the specified key
 - if the key is not found it returns the specified value
 - if there is no value specified it returns None
 
