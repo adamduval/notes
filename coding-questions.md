@@ -150,6 +150,61 @@ A hash map has constant lookup time. The algorithm on loops through the array on
 time: O(n)
 space: O(n)
 
+#### group anagrams
+
+[LeetCode](https://leetcode.com/problems/group-anagrams/)
+
+brute force
+
+```Python
+class Solution:
+    def groupAnagrams(self, strs: List[str]) -> List[List[str]]:
+        
+        answer = []
+        
+        #track words added to answers list
+        added=[]
+        
+        # loop strings, get str1 to check
+        for i in range(len(strs)):
+            str1 = strs[i]
+            
+            # check if str already in an anagram list
+            if str1 in added:
+                continue
+            
+            # track anagrams for string
+            str_ouput = []
+                
+            # loop comparison string, str2
+            for j in range(i+1, len(strs)):
+                str2 = strs[j]
+                
+                # compare length    
+                if len(str1) == len(str2):
+                    
+                    # make comparison 
+                    
+                    str1_track, str2_track = {}, {}
+                    
+                    # compare letters
+                    for k in range(len(str1)):
+                        str1_track[str1[k]] = 1 + str1_track.get(str1[k], 0)
+                        str2_track[str2[k]] = 1 + str2_track.get(str2[k], 0)
+                        
+                    if str1_track == str2_track:
+                        str_ouput.append(str2)
+                        added.append(str2)
+                            
+            str_ouput.append(str1)    
+            answer.append(str_ouput)
+        
+        return answer
+```
+
+time: #TODO
+space: #TODO
+
 --
 
 ## End
