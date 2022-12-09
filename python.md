@@ -106,6 +106,11 @@ enumerate(iterable, start=0)
 - when a script is run directly python sets the `__name__` variable to `__main__`
 - if a module is imported then the `__name__` variable is set to the name of the module
 
+### **kwargs
+
+- a magic variable
+- allows you to pass in an unspecified number of keyword arguments to a function
+
 ---
 
 ## END
