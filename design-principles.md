@@ -1,4 +1,4 @@
-# Design patterns
+# Design principles
 
 ## Inbox
 
