@@ -8,6 +8,7 @@
 - Calculating Delta Values - LAG()/LEAD()
 - UDFs (User Defined Functions) - CREATE (TABLE) FUNCTION
 - Date-time Manipulation - EXTRACT(), DATEDIFF(), DATE_ADD(), DATE_SUB(), DATE_TRUNC()
+- Offset fetch
 
 ---
 
@@ -243,6 +244,7 @@ SELECT *
 
 - sorts data based on one or more columns
 - defaults to ascending order, can use DESC to sort in descending order
+- can sort by one column, multiple columns, a column not in the select list, an expression and ordinal position (column number)
 
 ```SQL
 SELECT *

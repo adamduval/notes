@@ -1,4 +1,4 @@
-# Topics - Skills - Technologies - Frameworks - Principles
+# Hierchy of Topics - Skills - Technologies - Frameworks - Principles
 
 ## Inbox
 
@@ -17,6 +17,8 @@
 --
 
 ## Notes
+
+### Data Engineering
 
 --
 

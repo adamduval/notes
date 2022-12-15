@@ -43,7 +43,6 @@
 - git branch -m new_name will rename a branch
 - git branch -a lists all remote branches
 
-
 ### clone
 
 - used to point to an existing directory and make a copy of it into a new directory
