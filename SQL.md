@@ -124,7 +124,7 @@ SELECT year, name
     from table
 ```
 
-- the case statement above will check each row the year 2022 
+- the case statement above will check each row the year 2022
 - a column named year_ab is created
 - anytime the case statement is true the column get a 22 if not it gets a null
 - it is possible to chain multiple CASE WHEN statements together
