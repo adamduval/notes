@@ -169,7 +169,7 @@ SELECt * from table_name
 
 ### HAVING
 
-- used to filter aggregated columns when you can't filter with a WHERE
+- used to filter and already aggregated query when you can't filter with a WHERE
 
 ### Logical Operators
 
